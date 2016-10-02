@@ -8,8 +8,8 @@
   });
   app.constant("config", {
     "serviceUrls": {
-      "submissionDetails": "http://hackerearth.0x10.info/api/ctz_coders?type=json&query=list_submissions&page=",
-      "languageMapping": "http://hackerearth.0x10.info/api/ctz_coders?type=json&query=list_compiler_image"
+      "submissionDetails": "https://hackerearth.0x10.info/api/ctz_coders?type=json&query=list_submissions&page=",
+      "languageMapping": "https://hackerearth.0x10.info/api/ctz_coders?type=json&query=list_compiler_image"
     },
     "initialLimit": 10,
     "maxPageSize": 50,

@@ -20,7 +20,7 @@
         addAll(result.websites, pgNo);
       }
     };
-    xhttp.open("GET", "http://hackerearth.0x10.info/api/ctz_coders?type=json&query=list_submissions&page=" + pgNo, true);
+    xhttp.open("GET", "https://hackerearth.0x10.info/api/ctz_coders?type=json&query=list_submissions&page=" + pgNo, true);
     xhttp.send();
   };
 
